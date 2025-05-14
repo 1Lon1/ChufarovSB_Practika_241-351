@@ -1,42 +1,50 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Участники - Московский Политех</title>
 </head>
 <body>
 
-    <header>
-        <h1>Проект Московского Политеха</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Главная</a></li>
-                <li><a href="about.html">О проекте</a></li>
-                <li><a href="participants.html">Участники</a></li>
-                <li><a href="journal.html">Журнал</a></li>
-                <li><a href="resources.html">Ресурсы</a></li>
-            </ul>
-        </nav>
-    </header>
-<main>
-    <section class="participants-list">
-        <h2>Участники проекта</h2>
+<header>
+    <h1>Интерактивный музей Московского Политеха</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="about.html">О проекте</a></li>
+            <li><a href="participants.html" class="active">Участники</a></li>
+            <li><a href="journal.html">Журнал</a></li>
+            <li><a href="resources.html">Ресурсы</a></li>
+        </ul>
+    </nav>
+</header>
 
-        <article class="participant">
-            <h3>Чуфаров Сергей Борисович</h3>
-            <p>Роль: Разработчик<br>Вклад: Разработка интерфейса платформы.</p>
-        </article>
+<main class="participants-section">
+    <!-- Основной блок с рамкой и фоном -->
+    <h2>Участники проекта</h2>
 
-        <!-- Добавьте других участников с их вкладами -->
+    <!-- Информация об участнике -->
+    <article class="participant">
+        <h3>Чуфаров Сергей Борисович</h3>
+        <p>Роль: Разработчик<br>Вклад: Разработка интерфейса платформы.</p>
+    </article>
 
-    </section>
+    <!-- Можно добавить других участников по аналогии -->
+    <!-- Например: -->
+    <!--
+    <article class="participant">
+        <h3>Иванов Иван Иванович</h3>
+        <p>Роль: Дизайнер<br>Вклад: Создание макетов интерфейса.</p>
+    </article>
+    -->
+
 </main>
 
 <footer> 
-        <p>&copy; 2025 Московский Политех. Все права защищены.</p>
+    <p>&copy; 2025 Московский Политех. Все права защищены.</p>
 </footer>
-
+<div class="logo-background"></div>
 </body>
 </html>

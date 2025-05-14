@@ -1,44 +1,75 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head> 
-     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Журнал - Московский Политех</title>
 </head>
 
 <body>
 
-    <header>
-        <h1>Проект Московского Политеха</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Главная</a></li>
-                <li><a href="about.html">О проекте</a></li>
-                <li><a href="participants.html">Участники</a></li>
-                <li><a href="journal.html">Журнал</a></li>
-                <li><a href="resources.html">Ресурсы</a></li>
-            </ul>
-        </nav>
-    </header>
+<header>
+    <h1>Интерактивный музей Московского Политеха</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="about.html">О проекте</a></li>
+            <li><a href="participants.html">Участники</a></li>
+            <li><a href="journal.html">Журнал</a></li>
+            <li><a href="resources.html">Ресурсы</a></li>
+        </ul>
+    </nav>
+</header>
 
 <main> 
-     <section class="journal-posts"> 
-         <h2>Журнал проекта</h2>
+    <section class="journal-container"> 
+        <h2>Журнал проекта</h2>
 
-         <article class="post"> 
-             <h3>Пост 1: Начало работы над проектом</h3> 
-             <p>Дата: 011.092.20999<br>Мы начали работу над проектом и определили основные цели.</p> 
-         </article>
+        <!-- Первый пост в рамке -->
+        <div class="post-box">
+            <article class="post">
+                <h3>Пост 1: Начало работы над проектом</h3> 
+                <div style="display: flex; align-items: center;">
+                    <p><strong>Дата:</strong> 08.09.2024<br>
+                       Мы начали работу над проектом и определили основные цели. Команда собралась и обсудила план действий.</p>
+                    <img src="https://fs.cap.ru/file/CxvoS7CNIee0ro8DFk4H07E9aHhffvis" alt="Интерактивный музей" style="margin-left: 20px; width: 200px; height: auto;">
+                </div>
+            </article>
+        </div>
+    </section> 
+    <section class="journal-container"> 
+        <!-- Второй пост в рамке -->
+        <div class="post-box">
+            <article class="post">
+                <h3>Пост 2: Первый прототип готов</h3>
+                <div style="display: flex; align-items: center;">
+                    <p><strong>Дата:</strong> 16.02.2025<br>
+                       Создан первый прототип интерактивной выставки. Проведены первые тестирования и получены отзывы участников.</p>
+                    <img src="https://www.discoveringfinland.com/wp-content/uploads/2016/07/Kansallismuseo_006.jpg" alt="Прототип выставки" style="margin-left: 20px; width: 200px; height: auto;">
+                </div>
+            </article>
+        </div>
+    </section> 
+    <section class="journal-container"> 
+        <!-- Третий пост в рамке -->
+        <div class="post-box">
+            <article class="post">
+                <h3>Пост 3: Внедрение новых технологий</h3>
+                <div style="display: flex; align-items: center;">
+                    <p><strong>Дата:</strong> 30.03.2025<br>
+                       В команду добавлены специалисты по виртуальной реальности для улучшения экспозиции и взаимодействия посетителей.</p>
+                    <img src="https://cdn.culture.ru/images/5c8a73d6-cfb9-58ec-adc6-c0034e261471" alt="Виртуальная реальность" style="margin-left: 20px; width: 200px; height: auto;">
+                </div>
+            </article>
+        </div>
 
-         <!-- Добавьте еще два поста -->
-
-     </section> 
- </main>
+    </section> 
+</main>
 
 <footer> 
-       <p>&copy; 2025 Московский Политех. Все права защищены.</p>
- </footer>
-
- </body> 
- </html>
+    <p>&copy; 2025 Московский Политех. Все права защищены.</p>
+</footer>
+<div class="logo-background"></div>
+</body> 
+</html>
